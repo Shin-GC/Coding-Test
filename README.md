@@ -3,5 +3,4 @@
 
 ### Solve Coding Test 
 
-#### Coding Dojang
-#### Programmers
+#### Programmers https://programmers.co.kr/learn/challenges
