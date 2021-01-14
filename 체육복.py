@@ -13,11 +13,9 @@ def solution(n, lost, reserve):
             answer+=1
             reserve.remove(l-1)
             lost.remove(l)
-            continue
         elif l+1 in reserve:
             answer+=1
             reserve.remove(l+1)
             lost.remove(l)
-            continue
     
     return answer
