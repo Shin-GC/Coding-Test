@@ -1,6 +1,6 @@
-import collections
+import collections #deque를 위해 collections import
 def solution(prices):
-    answer = collections.deque([])
+    answer = collections.deque([]) #효율성을 위해 list 대신 deque사용
     prices=collections.deque(prices)
     while len(prices)!=1:
         time=1
