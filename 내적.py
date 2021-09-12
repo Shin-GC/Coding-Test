@@ -12,5 +12,3 @@ def solution(a, b):
         save.append(a[i]*b[i])
         answer = sum(save)
     return answer
-
-print(solution([1,2,3,4],[-3,-1,0,2]))
