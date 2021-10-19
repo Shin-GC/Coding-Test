@@ -4,5 +4,6 @@ def fib(n):
         return 1 # base case
     return fib(n - 2) + fib(n - 1) #recursive case
 # 테스트: fib(1)부터 fib(10)까지 출력
-for i in range(1, 11):
-    print(fib(i))
+
+
+print(fib(30))
